@@ -49,6 +49,6 @@ If you'd like to contribute to this repository or provide feedback, feel free to
 
 ## 📫 Contact
 
-For any questions or inquiries, please reach out to me at [er.darshangohil@gmail.com](mailto:er.darshangohil@gmail.com).
+For any questions or inquiries, please reach out to me at [er.darshangohil@gmail.com](mailto:dagohil@proton.me).
 
 ---
