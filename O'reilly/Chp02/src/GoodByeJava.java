@@ -9,7 +9,7 @@ public class GoodByeJava {
 
         // Create a JLabel and add it to the frame
         JLabel label = new JLabel("Goodbye Java - Chapter 02 Exercise 01", SwingConstants.CENTER);
-        frame.add(label); 
+        frame.add(label);
         frame.setVisible(true);
     }
 }
