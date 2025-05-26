@@ -15,15 +15,15 @@ public class FirstNonRepeatedChars {
         String inputString = scan.nextLine();
 
         Map<Character, Integer> charCount = new LinkedHashMap<>();
-        for(char c: inputString.toCharArray()){
-            charCount.put(c, charCount.getOrDefault(c,0) + 1);
+        for (char c : inputString.toCharArray()) {
+            charCount.put(c, charCount.getOrDefault(c, 0) + 1);
         }
-        
-        for(Map.Entry<Character, Integer> entry: charCount.entrySet()){
-            if(entry.getValue() == 1){
+
+        for (Map.Entry<Character, Integer> entry : charCount.entrySet()) {
+            if (entry.getValue() == 1) {
                 System.out.println("First non repeated characters is " + entry.getKey());
                 scan.close();
-                return;                
+                return;
             }
         }
         System.out.println("No non-repeated character found.");
