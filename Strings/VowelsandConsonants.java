@@ -10,17 +10,16 @@ public class VowelsandConsonants {
 
         for(int i = 0; i < inputString.length(); i++){
             char ch = inputString.charAt(i);
-
             char lc = Character.toLowerCase(ch);
 
             if(lc >='a' && lc <='z'){
                 if(lc =='a' || lc =='e' || lc =='i' || lc =='o' || lc =='u'){
                     vowelCount++;
                 }else{
-                    consonantCount++;                }
+                    consonantCount++;          
+                }
             }
         }
-
         System.out.println("VC : " + vowelCount + " CC : " + consonantCount);
     }
 }
