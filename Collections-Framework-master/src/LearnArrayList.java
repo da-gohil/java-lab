@@ -68,8 +68,6 @@ public class LearnArrayList {
 //
 //        list.clear(); //This will remove all the elements from the list.
 //        System.out.println(list);
-
-
-
+        
     }
 }
