@@ -23,7 +23,7 @@ public class Palindrome {
 // after converting all uppercase letters into lowercase letters and
 // removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 
-class Palindrome {
+class Palindrome1 {
     public static boolean isPalindrome(String s) {
        s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
