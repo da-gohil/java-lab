@@ -34,7 +34,7 @@ public class LearnArraysClass {
         // This is a more explicit way to declare and initialize an array.
         int[] numbers3 = new int[] {100, 200, 300, 400};
         System.out.println("Alternative Declaration 2: " + Arrays.toString(numbers3));
-        
+
         // 3. Sorting an Array Sequentially
         // The `Arrays.sort()` method sorts the entire array in ascending order.
         // It uses a Dual-Pivot Quicksort algorithm for primitive types.
