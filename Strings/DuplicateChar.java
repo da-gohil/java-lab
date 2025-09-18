@@ -8,7 +8,7 @@ import java.util.Map;
 public class DuplicateChar {
     public static void main(String[] args) {
 
-        String[] names = new String[] { "Danny", "Rohan", "Mohan" };
+        String[] names = new String[] { "Danny", "Roha≠n", "Mohan" };
         for (String name : names) {
             // System.out.println(name);
             findDuplicateChar(name);
@@ -17,7 +17,8 @@ public class DuplicateChar {
 
     public static void findDuplicateChar(String nameString) {
         Map<Character, Integer> count = new HashMap<>();
-        // Map ==> key, valoue pair for faster insertion and retrieval O(1)
+
+        // Map ==> key, value pair for faster insertion and retrieval O(1)
         nameString = nameString.toLowerCase();
 
         for (char c : nameString.toCharArray()) {
